@@ -20,7 +20,7 @@ from ta.volume import ChaikinMoneyFlowIndicator
 from ta.volume import ForceIndexIndicator
 from ta.volume import MFIIndicator
 import pandas as pd
-
+print('тест')
 
 def create_pivot(highD, lowD, closeD):
     return Pivot(highD, lowD, closeD)
